@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Airfare Price Monitoring Dashboard preview</title>
+  <desc id="desc">A preview of the dashboard showing route KPIs, price recommendations and latest versus previous prices for four flight legs.</desc>
+  <style>
+    .ink{fill:#17353a;font-family:Arial,sans-serif}.muted{fill:#718083;font-family:Arial,sans-serif}.mono{fill:#718083;font:12px monospace;letter-spacing:1px}.small{font-size:13px}.label{font:700 12px Arial,sans-serif;letter-spacing:1.3px}.value{font:700 34px Arial,sans-serif}.route{font:600 16px Arial,sans-serif}.price{font:700 15px Arial,sans-serif}.note{font:14px Arial,sans-serif}.line{stroke:#d8e0dc;stroke-width:1}.bar-latest{fill:#2f6f86}.bar-previous{fill:#d87848}
+  </style>
+  <rect width="1400" height="760" fill="#fbfaf6"/>
+  <rect x="24" y="24" width="1352" height="712" rx="16" fill="#fffefa" stroke="#d8e0dc"/>
+  <rect x="24" y="24" width="1352" height="64" rx="16" fill="#17353a"/>
+  <text x="52" y="65" fill="#fffefa" font-size="26" font-weight="700" font-family="Arial,sans-serif">Airfare Price Monitoring Framework</text>
+  <text x="52" y="116" class="mono">SELECTED TRIP · EGYPT ITINERARY · EGY-2026</text>
+  <line x1="52" y1="140" x2="1348" y2="140" class="line"/>
+
+  <g transform="translate(52 168)">
+    <text x="0" y="0" class="label muted">ROUTES TRACKED</text><text x="0" y="39" class="value ink">4</text><text x="0" y="61" class="small muted">multi-leg itinerary</text>
+    <text x="285" y="0" class="label muted">BOOK NOW</text><text x="285" y="39" class="value ink">2</text><text x="285" y="61" class="small muted">price dropped</text>
+    <text x="570" y="0" class="label muted">MONITOR</text><text x="570" y="39" class="value ink">2</text><text x="570" y="61" class="small muted">stable or higher</text>
+    <text x="855" y="0" class="label muted">NEEDS ATTENTION</text><text x="855" y="39" class="value ink">1</text><text x="855" y="61" class="small muted">price increased</text>
+  </g>
+
+  <rect x="52" y="260" width="738" height="288" rx="10" fill="#fffefa" stroke="#d8e0dc"/>
+  <rect x="52" y="260" width="738" height="36" rx="10" fill="#17353a"/>
+  <text x="70" y="284" fill="#fffefa" class="label">ROUTE</text><text x="222" y="284" fill="#fffefa" class="label">LATEST</text><text x="335" y="284" fill="#fffefa" class="label">PREVIOUS</text><text x="470" y="284" fill="#fffefa" class="label">CHANGE</text><text x="590" y="284" fill="#fffefa" class="label">RECOMMENDATION</text>
+  <g class="ink">
+    <text x="70" y="331" class="route">BER → HRG</text><text x="222" y="331" class="price">€135</text><text x="335" y="331" class="price">€179</text><text x="470" y="331" class="price">−€44</text><text x="590" y="331" class="price">BOOK</text>
+    <text x="70" y="385" class="route">HRG → CAI</text><text x="222" y="385" class="price">€60</text><text x="335" y="385" class="price">€60</text><text x="470" y="385" class="price">€0</text><text x="590" y="385" class="price">MONITOR</text>
+    <text x="70" y="439" class="route">CAI → LXR</text><text x="222" y="439" class="price">€161</text><text x="335" y="439" class="price">€133</text><text x="470" y="439" class="price">+€28</text><text x="590" y="439" class="price">MONITOR</text>
+    <text x="70" y="493" class="route">RMF → BER</text><text x="222" y="493" class="price">€44</text><text x="335" y="493" class="price">€60</text><text x="470" y="493" class="price">−€16</text><text x="590" y="493" class="price">BOOK</text>
+  </g>
+  <line x1="52" y1="350" x2="790" y2="350" class="line"/><line x1="52" y1="404" x2="790" y2="404" class="line"/><line x1="52" y1="458" x2="790" y2="458" class="line"/>
+
+  <rect x="824" y="260" width="524" height="288" rx="10" fill="#f2f4ef" stroke="#d8e0dc"/>
+  <text x="854" y="297" class="ink" font-size="20" font-weight="700" font-family="Arial,sans-serif">Latest vs previous price</text>
+  <g class="muted small">
+    <text x="854" y="343">BER → HRG</text><text x="854" y="393">HRG → CAI</text><text x="854" y="443">CAI → LXR</text><text x="854" y="493">RMF → BER</text>
+  </g>
+  <g>
+    <rect x="970" y="329" width="168" height="10" rx="5" class="bar-latest"/><rect x="970" y="343" width="222" height="10" rx="5" class="bar-previous"/>
+    <rect x="970" y="379" width="75" height="10" rx="5" class="bar-latest"/><rect x="970" y="393" width="75" height="10" rx="5" class="bar-previous"/>
+    <rect x="970" y="429" width="201" height="10" rx="5" class="bar-latest"/><rect x="970" y="443" width="166" height="10" rx="5" class="bar-previous"/>
+    <rect x="970" y="479" width="55" height="10" rx="5" class="bar-latest"/><rect x="970" y="493" width="75" height="10" rx="5" class="bar-previous"/>
+  </g>
+  <line x1="854" y1="520" x2="1318" y2="520" class="line"/><rect x="854" y="532" width="18" height="7" rx="3" class="bar-latest"/><text x="880" y="540" class="mono">LATEST</text><rect x="958" y="532" width="18" height="7" rx="3" class="bar-previous"/><text x="984" y="540" class="mono">PREVIOUS</text>
+
+  <rect x="52" y="590" width="1296" height="104" rx="10" fill="#edf2ed"/>
+  <text x="70" y="621" class="ink" font-size="17" font-weight="700" font-family="Arial,sans-serif">Automation status</text><text x="70" y="653" class="note ink">Flight-price API · Implemented</text><text x="350" y="653" class="note ink">Manual refresh control · Available</text><text x="690" y="653" class="note ink">Scheduled trigger · Paused</text>
+  <text x="70" y="678" class="mono">CURRENT STATE · API IMPLEMENTED · MANUAL REFRESH AVAILABLE · SCHEDULED TRIGGER PAUSED</text>
+</svg>

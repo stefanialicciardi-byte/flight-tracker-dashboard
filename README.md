@@ -66,6 +66,14 @@ The flight-price API is implemented and connected. Manual refresh is available. 
 
 The live sheet may require access permission depending on its sharing settings. No API keys, credentials or private configuration are stored in this repository.
 
+## Dashboard preview
+
+The preview below mirrors the current Dashboard view: route-level price comparisons, booking signals and the operating status of the refresh workflow.
+
+![Airfare Price Monitoring Dashboard preview](assets/dashboard-preview.svg)
+
+The interactive version remains in the [live Google Sheet](https://docs.google.com/spreadsheets/d/1OfpTWUFHfi1p1BYQHwuMXKHQgYB0NwSd7pQvhrfkysQ/edit).
+
 ## Documentation
 
 - [Full case study](docs/case-study.md)
